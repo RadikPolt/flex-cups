@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap");
+
+
+body {
+  background-color: #fdde7e;
+  font: 400 36px/1.4 "Lato", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+/* Layout */
+.ba-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   flex-wrap: wrap;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+}
+textarea {
+}
+.ba-cup-item {
+  background-color: #fff;
+  flex-basis: 360px;
+  margin: 50px 15px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 ;
+  border-radius: 3px;
+  box-shadow: 0px 3px 5px -3px rgba(0, 0, 0, 0.75);
+}
+.ba-cup-big {
+  padding: 50px 0;
+}
+.ba-cup-price {
+  font-size: 60px;
+  	margin: 0 0 10px;
+	color: #02995b;
+ }
+.ba-cup-title{
+	margin: 15px 0;
+}
+
+.ba-cup-small-text {
+  font-size: 16px;
+  max-width: 160px;
+}
